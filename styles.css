@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@300;400;500;600;700&family=Arial:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif; /* Set body font to Arial */
+}
+
+/* HEADER FONT CHANGE */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* Set headers font to Georgia */
+    text-align: left;
+    color: #2D2D2D;
+    padding-bottom: 35px;
+}
+
+/* TEXT STYLES */
+.text {
+    font-size: 16px; 
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    text-align: left;
+    padding-top: 10px;
+}
+
+/* COLOR CLASSES */
+.yellow_text {
+    color: #FFB600;
+}
+
+.tangerine_text {
+    color: #EB8C00;
+}
+
+.orange_text {
+    color: #D04A02;
+}
+
+.rose_text {
+    color: #DB536A;
+}
+
+.red_text {
+    color: #E0301E;
+}
+
+.black_text {
+    color: #000000;
+}
+
+.dark_grey_text {
+    color: #2D2D2D;
+}
+
+.medium_grey_text {
+    color: #464646;
+}
+
+.grey_text {
+    color: #7D7D7D;
+}
+
+.light_grey_text {
+    color: #DEDEDE;
+}
+
+.white_text {
+    color: #FFFFFF;
+}
+
+/* DIFFERENT BACKGROUND COLOR SECTION */
+.custom_section_grey {
+    background-color: #F2F2F2;
+    padding: 15px;
+    border-radius: 0px; 
+}
+
+.custom_section_orange {
+    background-color: #D04A02;
+    padding: 15px;
+    border-radius: 0px; 
+}
+
+
+/* BUTTON STYLING */
+:root {
+    --default-color: #D04A02;
+    --hover-color: #FFFFFF; 
+}
+
+/* Apply button styling and hover effect */
+div.stButton > button:first-child {
+    background-color: var(--default-color);
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+    border-radius: 0;
+}
+
+div.stButton > button:first-child:hover {
+    background-color: var(--hover-color);
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    outline: none;
+    border-radius: 0;
+}
