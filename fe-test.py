@@ -74,6 +74,6 @@ with col2:
     st.dataframe(df, hide_index=True, use_container_width=True)
 
 # Create the button
-btn = st.button("Herel")
+btn = st.button("Here")
 if btn:
     st.markdown(f'<p class="text black_text">There</p>', unsafe_allow_html = True)
